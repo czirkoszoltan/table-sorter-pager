@@ -1,0 +1,50 @@
+@keyframes tablepager-anim {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.tablepager-pager {
+    margin-bottom: 1em;
+}
+
+.tablepager-hide {
+    display: none;
+}
+
+.tablepager tr {
+    animation-name: tablesorter-anim;
+    animation-duration: 0.15s;
+}
+
+.tablepager-display {
+    width: 6em;
+    display: inline-block;
+    text-align: center;
+}
+
+.tablepager-pagesize {
+    display: inline-block;
+    text-align: center;
+    width: 5em;
+    margin-left: 0.5em;
+}
+
+.tablepager-pager button {
+    text-align: center;
+}
+
+.tablepager-first:before {
+    content: "\21e4";
+}
+
+.tablepager-last:before {
+    content: "\21e5";
+}
+
+.tablepager-prev:before {
+    content: "\2190";
+}
+
+.tablepager-next:before {
+    content: "\2192";
+}

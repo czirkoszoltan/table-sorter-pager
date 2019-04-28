@@ -1,0 +1,32 @@
+@keyframes tablesorter-anim {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+table.tablesorter {
+}
+
+table.tablesorter tbody tr {
+    animation-name: tablesorter-anim;
+    animation-duration: 0.15s;
+}
+
+th.tablesorter-header {
+    cursor: pointer;
+}
+
+th.tablesorter-sorting {
+    cursor: wait;
+}
+
+th.tablesorter-unsorted:before {
+    content: "\2195";
+}
+
+th.tablesorter-desc:before {
+    content: "\2191";
+}
+
+th.tablesorter-asc:before {
+    content: "\2193";
+}

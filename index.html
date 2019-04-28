@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+    <script src="sorter.js"></script>
+    <link href="sorter.css" rel="stylesheet">
+    <script src="pager.js"></script>
+    <link href="pager.css" rel="stylesheet">
+    <script>
+        $(function() {
+            $('.tablesorter').tablesorter();
+            $('.tablepager').tablepager();
+        });
+    </script>
+    
+    <style>
+        html {
+            font-size: 100%;
+        }
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        
+        td, th {
+            border: 1px solid #bbb;
+            padding: 0.2em;
+        }
+        
+        thead tr,
+        tbody tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+        
+        button, input, select {
+            background-color: #eee;
+            border: 1px solid #bbb;
+            font-size: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    
+<h1>table-sorter-page</h1>
+    
+<p>See source on <a href="https://github.com/czirkoszoltan/table-sorter-pager">GitHub</a>.</p>
+
+<table class="tablesorter tablepager">
+<thead>
+    <tr> <th>Name <th>Company <th>Number 
+</thead>
+<tbody>
+    <tr> <td>Lacy Montoya <td>Orci Foundation <td>77
+    <tr> <td>Brett Christian <td>Vel Limited <td>10
+    <tr> <td>Hector Ewing <td>Posuere Cubilia Curae; LLC <td>21
+    <tr> <td>Tasha Macdonald <td>Sagittis Placerat Cras PC <td>70
+    <tr> <td>Nash Francis <td>Urna Nunc Company <td>77
+    <tr> <td>Vance Britt <td>Eleifend Cras Associates <td>84
+    <tr> <td>Orli Fitzgerald <td>Molestie Sodales LLC <td>81
+    <tr> <td>Buckminster Casey <td>Vitae Corp. <td>56
+    <tr> <td>Tara Bray <td>Mi LLP <td>85
+    <tr> <td>Cedric Sweeney <td>Euismod Industries <td>49
+    <tr> <td>Prescott Conner <td>Proin Ultrices Foundation <td>80
+    <tr> <td>Dustin Callahan <td>Curabitur Incorporated <td>51
+    <tr> <td>Dexter Rivas <td>Ut Corporation <td>95
+    <tr> <td>Kennan Weeks <td>Nulla At Sem Ltd <td>99
+    <tr> <td>Pascale Browning <td>Consequat Dolor Vitae Corp. <td>28
+    <tr> <td>Xanthus Ross <td>Iaculis Inc. <td>67
+    <tr> <td>Marcia Dudley <td>Commodo At Libero Consulting <td>37
+    <tr> <td>Gretchen Sweeney <td>Luctus Vulputate Incorporated <td>36
+    <tr> <td>Nerea Booker <td>Convallis Est Vitae Company <td>10
+    <tr> <td>Melvin Oneill <td>Suspendisse Ac Company <td>61
+    <tr> <td>Farrah Erickson <td>Etiam Industries <td>29
+    <tr> <td>Jena Acosta <td>Lacinia Sed Incorporated <td>7
+    <tr> <td>Sonia Slater <td>Euismod Urna Nullam Foundation <td>38
+    <tr> <td>Merrill Kinney <td>Lobortis PC <td>27
+    <tr> <td>Jamal Ware <td>Commodo Auctor Corporation <td>72
+    <tr> <td>Astra Browning <td>Lectus Rutrum Institute <td>66
+    <tr> <td>Risa Hale <td>Nonummy Fusce Fermentum Industries <td>90
+    <tr> <td>Colette Ramos <td>Imperdiet Ornare In Limited <td>20
+    <tr> <td>Tyrone Powers <td>Nibh LLP <td>9
+    <tr> <td>Mary Smith <td>Nulla PC <td>94
+    <tr> <td>Stuart Hart <td>Donec Incorporated <td>63
+    <tr> <td>Jin Duncan <td>Congue Turpis In Associates <td>7
+    <tr> <td>Naomi Skinner <td>Arcu Vestibulum Ante Institute <td>22
+    <tr> <td>Kennedy Black <td>Mi Lorem Ltd <td>30
+    <tr> <td>Lavinia Avery <td>Neque Ltd <td>24
+    <tr> <td>Finn Brady <td>Eu Ligula Aenean Ltd <td>39
+    <tr> <td>Kaitlin Fitzpatrick <td>Felis Purus Ac Institute <td>94
+    <tr> <td>Sylvester Avila <td>Varius Ultrices Mauris Inc. <td>29
+    <tr> <td>Ahmed Skinner <td>Lacus Vestibulum Lorem Inc. <td>35
+    <tr> <td>Rhoda Rose <td>Libero Corporation <td>61
+    <tr> <td>Ashton Abbott <td>Donec Tincidunt Donec Industries <td>20
+    <tr> <td>Janna Mcintosh <td>Aptent Taciti Sociosqu LLP <td>86
+    <tr> <td>Xyla Guthrie <td>Pharetra Sed Hendrerit Foundation <td>15
+    <tr> <td>Keaton Guzman <td>Ligula Corp. <td>38
+    <tr> <td>Brittany Manning <td>Id Enim Associates <td>100
+    <tr> <td>Sheila Cross <td>Adipiscing Ligula Aenean Industries <td>50
+    <tr> <td>Roth Leach <td>Fringilla Foundation <td>73
+    <tr> <td>Xyla Wilder <td>Ut Ipsum Corp. <td>42
+    <tr> <td>Wyoming Castro <td>Metus Eu LLP <td>12
+    <tr> <td>Roanna Benson <td>Et Magnis Limited <td>98
+    <tr> <td>Diana Mcintosh <td>Augue Ut Lacus LLP <td>74
+    <tr> <td>Aidan Hogan <td>Phasellus Associates <td>89
+    <tr> <td>Amanda Contreras <td>Nunc Interdum Feugiat Corporation <td>56
+    <tr> <td>Haley Reese <td>Aliquet Company <td>51
+    <tr> <td>Kaden Reilly <td>Eu Associates <td>25
+    <tr> <td>TaShya Saunders <td>Volutpat Ornare Company <td>77
+    <tr> <td>Sade Fitzpatrick <td>Eleifend Associates <td>92
+    <tr> <td>Quamar Meyer <td>Pede Limited <td>21
+    <tr> <td>Nolan Leon <td>Scelerisque Dui Suspendisse LLP <td>49
+    <tr> <td>Paloma Blackburn <td>Parturient Foundation <td>91
+    <tr> <td>Walter Cleveland <td>Purus Institute <td>43
+    <tr> <td>Shelly Montgomery <td>Montes Nascetur Associates <td>6
+    <tr> <td>Peter Benton <td>Mi Enim Associates <td>68
+    <tr> <td>Deacon Obrien <td>Nam Ac Nulla PC <td>55
+    <tr> <td>Quamar Blackburn <td>Curabitur Massa Vestibulum Associates <td>5
+    <tr> <td>Scarlet Garrett <td>Ultrices Posuere Cubilia PC <td>70
+    <tr> <td>Oleg Munoz <td>Consequat Enim Diam Consulting <td>9
+    <tr> <td>Jessamine Jarvis <td>Auctor Foundation <td>96
+    <tr> <td>Kyle Hernandez <td>Penatibus Et Ltd <td>55
+    <tr> <td>Madaline Sanchez <td>Donec PC <td>40
+    <tr> <td>Yoshio Conway <td>Posuere LLP <td>97
+    <tr> <td>Martena Jennings <td>Erat Associates <td>89
+    <tr> <td>Prescott Justice <td>Non LLC <td>21
+    <tr> <td>Cadman Conway <td>Nisl Arcu Iaculis Corporation <td>33
+    <tr> <td>Hashim Harvey <td>Magna Lorem Ipsum Corp. <td>4
+    <tr> <td>Dominique Harrington <td>Vulputate Lacus Incorporated <td>8
+    <tr> <td>Hashim Carroll <td>Magna Nec Corporation <td>38
+    <tr> <td>Kareem Trujillo <td>Faucibus Lectus A Company <td>13
+    <tr> <td>Elizabeth Reynolds <td>Magna A Neque Limited <td>55
+    <tr> <td>Mollie Cervantes <td>Et Rutrum LLP <td>95
+    <tr> <td>Minerva Robbins <td>Metus Vitae Industries <td>4
+    <tr> <td>Mollie Reyes <td>Curabitur Sed LLP <td>14
+    <tr> <td>Cassandra Harrington <td>Consectetuer Mauris Associates <td>23
+    <tr> <td>Jarrod Luna <td>Eu Corp. <td>74
+    <tr> <td>Colleen Short <td>Tristique Ac Institute <td>64
+    <tr> <td>Fiona Meyer <td>Duis Gravida Praesent Consulting <td>98
+    <tr> <td>Pearl Spencer <td>Bibendum Ullamcorper Duis LLC <td>47
+    <tr> <td>Baker Olsen <td>Egestas Associates <td>36
+    <tr> <td>Hall Padilla <td>Mi Lorem Corp. <td>91
+    <tr> <td>Hunter Acevedo <td>Arcu Iaculis Enim Incorporated <td>40
+    <tr> <td>Arden Richards <td>Pede Associates <td>68
+    <tr> <td>Carissa Gregory <td>Congue Incorporated <td>23
+    <tr> <td>Riley Frye <td>Et Magna Praesent Consulting <td>94
+    <tr> <td>Castor Castaneda <td>Nunc Company <td>57
+    <tr> <td>Kameko Rowe <td>At Associates <td>24
+    <tr> <td>Samson Schultz <td>Erat Foundation <td>21
+    <tr> <td>Geraldine Macias <td>Ac Feugiat Company <td>31
+    <tr> <td>Jordan Daniel <td>Ut Quam Industries <td>75
+    <tr> <td>Colorado Rowland <td>Amet Ante PC <td>78
+    <tr> <td>Leslie Flores <td>Suspendisse Inc. <td>9
+</tbody>
+</table>
+
+</body>
+
+</html>
